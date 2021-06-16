@@ -1,0 +1,132 @@
+/* 导航菜单-logo */
+.header-box-logo{
+  background: #ffffff;
+  width: 9.375rem;
+  padding: 0.025rem;
+  font: bold 3.125rem/100% "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;;
+  color: #31a1ff;
+  font-size: 1.375rem;
+  text-transform: uppercase;
+  margin: -1.1625rem auto auto 0.025rem;
+}
+
+/* 导航菜单-文字 */
+.welcome-box-text{
+	background: rgba(91, 91, 91, 0.8); border-radius: 0.9375rem;
+}
+
+/* 观欢迎文字框 */
+.welcome-box-text-h{
+	padding-top: 2.125rem;
+	color: #ffffff;
+	font-size: 1.125rem;
+}
+
+.welcome-box-text .welcome-box-text-p{
+	font-size: 1.5625rem;
+	color: deeppink;
+}
+
+h1 strong{
+	color: #31A1FF;
+	font-size: 2.55rem;
+	letter-spacing: 0.3125rem 0.3125rem;
+}
+
+/* ‘发现更多’按钮 */
+a.main-button-slider {
+  font-size: 1.125rem;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  background-color: #14b7ff;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.015625rem;  /* 字间隔 */
+  -webkit-transition: all 0.3s ease 0s;  /* transition属性渐变设置，比如鼠标放上颜色变化，或者宽度变化 */
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;  /* 带 -webkit-、-moz- 或 -o- 的数字表示使用前缀的首个版本。 */
+}
+
+a.main-button-slider:hover {
+  background-color: #ff258e;  /* 属性颜色渐变设置 */
+}
+
+/* 小框标题文字 */
+.left-heading .section-title {
+  font-weight: 500;
+  font-size: 1.775rem;
+  line-height: 42px;  /* 设置以百分比计的行高 */
+  color: #1e1e1e;
+  letter-spacing: 0.35px;  /* letterSpacing 属性设置字符之间的空白 */
+  margin-bottom: 0.3125rem;
+  position: relative;  /* 相对定位 */
+  text-decoration: underline;
+}
+
+/* 家乡简介使用的分隔划线 */
+.hr {
+  bottom: 0px;
+  width: 100%;
+  height: 1px;
+  margin-top: 2.125rem;
+  margin-bottom: 3.25rem;
+  padding-bottom: 1.875rem;
+  border-bottom: 0.1775rem solid #0000ff;
+}
+
+/* 小标题 */
+.title-box-site{
+	color: #007BFF;
+	text-align: center;
+	width: 100%;
+	margin: 0.125rem 0 0.625rem;  /* 上左下右外边距 */
+	padding-top: 1.175rem;
+	padding-bottom: 2.75rem;
+}
+
+.title-box-site h1{
+	letter-spacing: 0.225rem;
+}
+
+/* 为了让图片适应div大小伸缩 */
+.mini .mini-content .mini-box img{
+  width: 90%;
+}
+
+/* 欢迎界面四个小框图片随div大小变化而变化 */
+.features-small-item .icon img{
+	width: 90%;
+}
+
+.col-lg-12 .section-title-two{
+	font-weight: 500;
+	font-size: 1.775rem;
+	line-height: 42px;  /* 设置以百分比计的行高 */
+	color: #1e1e1e;
+	letter-spacing: 0.35px;  /* letterSpacing 属性设置字符之间的空白 */
+	margin-bottom: 0.3125rem;
+	position: relative;  /* 相对定位 */
+}
+
+/* 风俗习惯部分使用的划线 */
+.hr-two {
+  bottom: 0px;
+  width: 100%;
+  height: 1px;
+  margin-top: -1.625rem;
+  margin-bottom: 3.25rem;
+  padding-bottom: 1.875rem;
+  border-bottom: 0.1775rem solid #0000ff;
+}
+
+/* 家乡景区部分使用的划线 */
+.hr-three {
+  bottom: 0px;
+  width: 100%;
+  height: 1px;
+  margin-top: 1.625rem;
+  margin-bottom: 3.25rem;
+  padding-bottom: 1.875rem;
+  border-bottom: 0.1775rem solid #0000ff;
+}
